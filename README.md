@@ -95,7 +95,7 @@ The `Controller.py` node listens for keyboard inputs to manage the robot's state
 **Developed for the Autonomous Systems Module.**
 
 ### Key Improvements Made:
-- [cite_start]**Safety Constants:** Specifically mentioned the $30cm$ stop distance and $50cm$ target gap used in your `Controller.py`[cite: 1].
-- [cite_start]**Hysteresis Logic:** Included the $0.40m$ resume distance that handles robot recovery[cite: 1].
+- **Safety Constants:** Specifically mentioned the $30cm$ stop distance and $50cm$ target gap used in your `Controller.py`.
+- **Hysteresis Logic:** Included the $0.40m$ resume distance that handles robot recovery.
 - **Launch Support:** Added the `inference_yolo.launch.yaml` file to the file table and getting started guide.
-- [cite_start]**Coordinate Mapping:** Highlighted how $x_{veh}$ is extracted from the `postproc.py` output for control[cite: 1].
+- **Coordinate Mapping:** Highlighted how $x_{veh}$ is extracted from the `postproc.py` output for control.
