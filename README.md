@@ -4,7 +4,7 @@
 [![TensorRT](https://img.shields.io/badge/NVIDIA-TensorRT-green?logo=nvidia)](https://developer.nvidia.com/tensorrt)
 [![YOLOv8](https://img.shields.io/badge/Model-YOLOv8-red)](https://github.com/ultralytics/ultralytics)
 
-This repository features a complete autonomous robotics pipeline. It uses a custom **YOLOv8** model to detect vehicles and a high-performance **C++/TensorRT** inference engine to drive an **Adaptive Cruise Control (ACC)** system on a Jetson hardware platform.
+This repository showcases a full-stack autonomous robotics pipeline. I **trained a custom YOLOv8 model** for vehicle detection and deployed it via a high-performance **C++/TensorRT** inference engine to power an **Adaptive Cruise Control (ACC)** system on NVIDIA Jetson hardware.
 
 ## 🌟 Project Highlights
 
