@@ -1,0 +1,26 @@
+launch:
+
+- node:
+    pkg: "hsh_inference"
+    exec: "hsh_inference_node"
+    name: "inference"
+    namespace: ""
+    output: "screen"
+    param:
+    -
+      name: "model_type" 
+      value: "yolo" # resnet
+    -
+      name:  "engine_file"
+      value: "best.engine"
+     # value: "best.trt.engine"
+      #value: "best_model_lane_and_obj_resnet18_200epochs_all_datasets_v2.pth.onnx.trt"
+     # value: "collision_avoidance_model_resnet18.pth.onnx.trt"
+    -
+      name:  "engine_path"
+      value: "/home/jetson/models"
+
+    remap:
+    -  
+      from: "/hsh_inference/model_output"
+      to: "/hsh_inference/yolo"

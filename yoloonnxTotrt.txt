@@ -1,0 +1,2 @@
+/usr/src/tensorrt/bin/trtexec   --onnx=/home/jetson/models/best.onnx   --saveEngine=/home/jetson/models/best_int8.engine   --fp16  --optShapes=images:1x3x640x640
+
