@@ -39,6 +39,7 @@ If an emergency stop occurs, the robot will only resume driving once the car mov
 | 🚀 `export_yolov8ToOnnx.py` | Exports YOLOv8 weights with **End-to-End NMS** enabled. |
 | ⚙️ `yoloonnxTotrt.txt` | Command line params for creating the **FP16 engine**. |
 | 🧠 `inference.cpp` | C++/CUDA node that runs the model on the camera feed. |
+| 📊 `inference_visu.py` | **Visualization Node:** Overlays telemetry, boxes, and $x_{veh}$ data on live feed. |
 | 🔍 `postproc.py` | Maps model output to vehicle coordinates (meters). |
 | 🎮 `Controller.py` | The main logic node containing the **ACC algorithm**. |
 | 🛠️ `inference_yolo.launch.yaml` | ROS 2 launch file for the inference system. |
